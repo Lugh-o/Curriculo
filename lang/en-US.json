@@ -1,0 +1,62 @@
+{
+    "title": "Resume - Lucas Carneiro Falcão",
+    "header": {
+        "name": "Lucas Carneiro Falcão",
+        "info": "Brazilian | 24 years old | Salvador - Bahia",
+        "email": "lughfalcao@gmail.com",
+        "githubText": "GitHub",
+        "linkedinText": "LinkedIn"
+    },
+    "about": {
+        "title": "About Me",
+        "text": "I am a software engineering student passionate about technology and innovation. I have experience in fullstack development, embedded systems, and robotics, focusing on creating efficient and scalable solutions. I am constantly seeking to improve my skills and contribute to projects that positively impact society."
+    },
+    "stack": {
+        "title": "Tech Stack",
+        "skills": [
+            { "skill": "PHP (Laravel)", "level": "Advanced", "percentage": 100 },
+            { "skill": "MySQL", "level": "Intermediate", "percentage": 66 },
+            { "skill": "JavaScript (React/React Native)", "level": "Intermediate", "percentage": 66 },
+            { "skill": "Docker", "level": "Intermediate", "percentage": 66 },
+            { "skill": "Linux", "level": "Intermediate", "percentage": 66 },
+            { "skill": "HTML/CSS", "level": "Intermediate", "percentage": 66 },
+            { "skill": "Java (Spring Boot)", "level": "Beginner", "percentage": 33 }
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "project1": {
+            "title": "Extension Project Carpoeira Baja – UFBA (2019 – 2022)",
+            "text": "Development of an off-road vehicle, including conception, design, prototyping, assembly, and competition. Responsible for the design of a distributed embedded system using ESP32, communication via CAN protocol, and LoRa telemetry."
+        },
+        "project2": {
+            "title": "Scientific Research: Robotic Localization based on Perfect Match – UFBA (2022 – 2023)",
+            "text": "Study and improvement of the Perfect Match algorithm using the UGV Husky. Development of computational tools and virtual environments for simulations."
+        }
+    },
+    "graduation": {
+        "title": "Degree",
+        "text": "<strong>Software Engineering</strong> - Catholic University of Salvador (2025 - expected graduation: 06/2029)"
+    },
+    "education": {
+        "title": "Complementary Education",
+        "course1": {
+            "title": "Fullstack Programming Course – SENAC",
+            "details": [
+                "Workload: 240h",
+                "Completion: 08/2024",
+                "Content: HTML, CSS, JavaScript, MySQL, PHP, Laravel",
+                "Final project: Website for cataloging events happening in Salvador, aiming to help promote them for bars, restaurants, and event venues."
+            ]
+        },
+        "course2": {
+            "title": "Advanced English Course – Fisk",
+            "details": [
+                "Completion: 2017",
+                "Content: Advanced English communication, academic writing, fluent conversation, and preparation for professional contexts.",
+                "Took the Michigan English Test, achieving a B2 score."
+            ]
+        }
+    },
+    "footer": "&copy; 2025 Lucas Carneiro Falcão"
+}

@@ -1,0 +1,270 @@
+:root {
+    --mindaro: #c5d86dff;
+    --licorice: #261c15ff;
+    --baby-powder: #f7f7f2ff;
+    --beige: #e4e6c3ff;
+    --giants-orange: #f05d23ff;
+
+    --body-bg: var(--baby-powder);
+    --body-font: var(--licorice);
+    --header-bg: var(--mindaro);
+    --header-font: var(--licorice);
+    --contact-link: var(--licorice);
+    --contact-link-active: var(--giants-orange);
+    --section-bg: var(--mindaro);
+    --title: var(--licorice);
+    --title-border: var(--licorice);
+    --skill-name: var(--licorice);
+    --skill-bar: var(--licorice);
+    --skill-bar-fill: var(--giants-orange);
+    --skill-level: var(--licorice);
+    --footer-bg: var(--mindaro);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--body-bg);
+    color: var(--body-font);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--header-bg);
+    color: var(--header-font);
+    padding: 30px 20px 30px;
+    text-align: center;
+    grid-area: header;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contact-links li {
+    margin-bottom: 0;
+}
+
+.contact-links a {
+    display: block;
+    font-size: 1rem;
+    color: var(--contact-link);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    color: var(--contact-link-active);
+}
+
+.language-selector {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.language-selector select {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid var(--licorice);
+    border-radius: 5px;
+    background-color: var(--baby-powder);
+    color: var(--licorice);
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'about'
+        'stack'
+        'experience'
+        'graduation'
+        'education' ;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: var(--section-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section#iabout {
+    grid-area: about;
+}
+
+section#istack {
+    grid-area: stack;
+}
+
+section#iexperience {
+    grid-area: experience;
+}
+
+section#iexperience h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+section#iexperience p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+section#igraduation {
+    grid-area: graduation;
+}
+
+section#ieducation {
+    grid-area: education;
+}
+
+section#ieducation p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+section#ieducation ul {
+    margin-bottom: 20px;
+}
+
+section#ieducation li {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: var(--title);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid var(--title-border);
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+section#ieducation ul li,
+section#iexperience ul li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--footer-bg);
+    font-size: 0.9rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    font-weight: bold;
+    color: var(--skill-name);
+}
+
+.skill-bar {
+    flex: 3;
+    height: 30px;
+    background-color: var(--skill-bar);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: var(--skill-bar-fill);
+    display: flex;
+    align-items: center;
+    transition: width 0.5s ease-in-out;
+}
+
+.skill-level {
+    position: absolute;
+    left: 10px;
+    font-size: 0.9rem;
+    color: var(--skill-level);
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-areas:
+            'header header'
+            'about stack'
+            'graduation stack'
+            'education experience';
+        grid-template-columns: 1fr 2fr;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        grid-template-areas:
+            'header header'
+            'about stack'
+            'graduation stack'
+            'education experience'; 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        min-height: 250px;
+    }
+
+}
