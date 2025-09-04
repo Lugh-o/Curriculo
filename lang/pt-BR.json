@@ -9,25 +9,26 @@
     },
     "about": {
         "title": "Sobre mim",
-        "text": "Sou um engenheiro de software em formação, apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento fullstack, sistemas embarcados e robótica, com foco em criar soluções eficientes e escaláveis. Busco constantemente aprimorar minhas habilidades e contribuir para projetos que impactem positivamente a sociedade."
+        "text": "Sou um engenheiro de software em formação, apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento fullstack, sistemas embarcados e robótica, com foco em criar soluções eficientes e escaláveis. Estou em busca de oportunidades como desenvolvedor backend."
     },
     "stack": {
         "title": "Tech Stack",
         "skills": [
             { "skill": "PHP (Laravel)", "level": "Avançado", "percentage": 100 },
             { "skill": "MySQL", "level": "Intermediário", "percentage": 66 },
-            { "skill": "JavaScript (React/React Native)", "level": "Intermediário", "percentage": 66 },
+            { "skill": "JavaScript (Vanilla/React Native)", "level": "Intermediário", "percentage": 66 },
             { "skill": "Docker", "level": "Intermediário", "percentage": 66 },
             { "skill": "Linux", "level": "Intermediário", "percentage": 66 },
             { "skill": "HTML/CSS", "level": "Intermediário", "percentage": 66 },
-            { "skill": "Java (Spring Boot)", "level": "Básico", "percentage": 33 }
+            { "skill": "Java", "level": "Intermediário", "percentage": 66 },
+            { "skill": "Groovy", "level": "Intermediário", "percentage": 66}
         ]
     },
     "experience": {
         "title": "Experiência",
         "project1": {
             "title": "Projeto de extensão Carpoeira Baja – UFBA (2019 – 2022)",
-            "text": "Desenvolvimento de veículo Off-Road, incluindo concepção, projeto, prototipagem, montagem e competição. Responsável pelo projeto de sistema embarcado distribuído com ESP32, comunicação via protocolo CAN e telemetria LoRa."
+            "text": "Desenvolvimento de veículo Off-Road, incluindo concepção, projeto, prototipagem, montagem e competição. Responsável pelo projeto de sistema embarcado distribuído com ESP32."
         },
         "project2": {
             "title": "Iniciação científica: Localização Robótica baseada no Perfect Match – UFBA (2022 – 2023)",
@@ -44,16 +45,13 @@
             "title": "Curso de Programação Fullstack – SENAC",
             "details": [
                 "<p>Carga horária: 240h</p>",
-                "<p>Conclusão: 08/2024</p>",
-                "<p>Conteúdo: HTML, CSS, JavaScript, MySQL, PHP, Laravel</p>",
-                "<p>Projeto final: Site para o catálogo de eventos que acontecem em Salvador, com o objetivo de ajudar na divulgação para bares, restaurantes e casas de evento.</p>"
+                "<p>Conclusão: 08/2024</p>"
             ]
         },
         "course2": {
             "title": "Curso Avançado de Inglês – Fisk",
             "details": [
                 "<p>Conclusão: 2017</p>",
-                "<p>Conteúdo: Comunicação avançada em inglês, escrita acadêmica, conversação fluente e preparação para contextos profissionais.</p>",
                 "<p>Realização do Michigan English Test, no qual obtive a nota B2.</p>"
             ]
         }

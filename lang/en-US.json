@@ -9,25 +9,26 @@
     },
     "about": {
         "title": "About Me",
-        "text": "I am a software engineering student passionate about technology and innovation. I have experience in fullstack development, embedded systems, and robotics, focusing on creating efficient and scalable solutions. I am constantly seeking to improve my skills and contribute to projects that positively impact society."
+        "text": "I am a software engineering student passionate about technology and innovation. I have experience in fullstack development, embedded systems, and robotics, focusing on creating efficient and scalable solutions. I am currently seeking new opportunities as a backend Developer"
     },
     "stack": {
         "title": "Tech Stack",
         "skills": [
             { "skill": "PHP (Laravel)", "level": "Advanced", "percentage": 100 },
             { "skill": "MySQL", "level": "Intermediate", "percentage": 66 },
-            { "skill": "JavaScript (React/React Native)", "level": "Intermediate", "percentage": 66 },
+            { "skill": "JavaScript (Vanilla/React Native)", "level": "Intermediate", "percentage": 66 },
             { "skill": "Docker", "level": "Intermediate", "percentage": 66 },
             { "skill": "Linux", "level": "Intermediate", "percentage": 66 },
             { "skill": "HTML/CSS", "level": "Intermediate", "percentage": 66 },
-            { "skill": "Java (Spring Boot)", "level": "Beginner", "percentage": 33 }
+            { "skill": "Java", "level": "Intermediate", "percentage": 66 },
+            { "skill": "Groovy", "level": "Intermediate", "percentage": 66}
         ]
     },
     "experience": {
         "title": "Experience",
         "project1": {
             "title": "Extension Project Carpoeira Baja – UFBA (2019 – 2022)",
-            "text": "Development of an off-road vehicle, including conception, design, prototyping, assembly, and competition. Responsible for the design of a distributed embedded system using ESP32, communication via CAN protocol, and LoRa telemetry."
+            "text": "Development of an off-road vehicle, including conception, design, prototyping, assembly, and competition. Responsible for the design of a distributed embedded system using ESP32."
         },
         "project2": {
             "title": "Scientific Research: Robotic Localization based on Perfect Match – UFBA (2022 – 2023)",
@@ -44,16 +45,13 @@
             "title": "Fullstack Programming Course – SENAC",
             "details": [
                 "Workload: 240h",
-                "Completion: 08/2024",
-                "Content: HTML, CSS, JavaScript, MySQL, PHP, Laravel",
-                "Final project: Website for cataloging events happening in Salvador, aiming to help promote them for bars, restaurants, and event venues."
+                "Completion: 08/2024"
             ]
         },
         "course2": {
             "title": "Advanced English Course – Fisk",
             "details": [
                 "Completion: 2017",
-                "Content: Advanced English communication, academic writing, fluent conversation, and preparation for professional contexts.",
                 "Took the Michigan English Test, achieving a B2 score."
             ]
         }
